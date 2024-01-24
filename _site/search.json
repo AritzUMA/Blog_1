@@ -81,7 +81,7 @@
     "href": "posts/Rvest/rvest.html#install-the-library",
     "title": "Rvest package fof Web Scraping",
     "section": "1 - Install the library",
-    "text": "1 - Install the library\nLike always, we need install the pacakge.\n\ninstall.packages(\"rvest\")\n\nThe following package(s) will be installed:\n- rvest [1.0.3]\nThese packages will be installed into \"~/MEGAsync/Proyectos/Blog_1/renv/library/R-4.1/x86_64-pc-linux-gnu\".\n\n# Installing packages --------------------------------------------------------\n- Installing rvest ...                          OK [linked from cache]\nSuccessfully installed 1 package in 4.8 milliseconds.\n\n\nOnce the package is installed, we need “call” the package to use their functions.\n\nlibrary(rvest)\nlibrary(tidyverse)"
+    "text": "1 - Install the library\nLike always, we need install the pacakge.\n\ninstall.packages(\"rvest\")\n\nThe following package(s) will be installed:\n- rvest [1.0.3]\nThese packages will be installed into \"~/MEGAsync/Proyectos/Blog_1/renv/library/R-4.1/x86_64-pc-linux-gnu\".\n\n# Installing packages --------------------------------------------------------\n- Installing rvest ...                          OK [linked from cache]\nSuccessfully installed 1 package in 4.5 milliseconds.\n\n\nOnce the package is installed, we need “call” the package to use their functions.\n\nlibrary(rvest)\nlibrary(tidyverse)"
   },
   {
     "objectID": "posts/Rvest/rvest.html#read-the-page",
