@@ -1,0 +1,243 @@
+---
+title: 'Rvest package fof Web Scraping'
+date: '2022-06-01'
+categories: ['123', 'Second Tag']
+description: 'Webscraping'
+execute: 
+  message: false
+  warning: false
+editor_options: 
+  chunk_output_type: console
+---
+
+![](rvest.png)
+
+# Ethic Webscraping
+
+The first thing we have to know is that the web sraping is a automatization of the webpages publiclky avaible information. There is a several legislations about this tecnique, like the [GDPR](https://gdpr.eu/) in Europe, in wich is delimeted for the Personal data or Personally Identifiablke Information (PII). So, we have to avoid the problematic question of the scraping personal data of european citizens and if we have to do it, follow the legals questions regarded in the GDPR.
+
+Apart from the legal cuestion, it is impiortant to know that webscraping is technique that relantizes the servers of the companies if we do it very agressivly. Is for this that we have to priorice the APIs (Aplication Programminf Interface) avaiable for the webpages if there are. This aplications are prepared to dowload the information and don't disturb the normal function of the servers of the webpages.\
+\
+Knowing this information, we can start with the first of the 4 packages to webscraping information in R: Rvest.
+
+## First steps
+
+The rvest package have his own [website](https://rvest.tidyverse.org/) and is avaiable the full documentation in the [CRAN](https://cran.r-project.org/web/packages/rvest/rvest.pdf) repository. Is a very easy package to use and to deal with, in wich the principal focus is in the html structure and there csss, tags or Xpaths between others. Lets try to do this easy tutorial with a [naiz.eus](https://www.naiz.eus/) webpage and the news that are avaiable.
+
+## 1 - Install the library
+
+Like always, we need install the pacakge.
+
+```{r}
+install.packages("rvest")
+```
+
+Once the package is installed, we need "call" the package to use their functions.
+
+```{r}
+library(rvest)
+library(tidyverse)
+```
+
+## 2 - Read the page
+
+First of all we need to read the page in pur local machine, is for this that we need to use read_html() function to save the html structure in the variable.
+
+```{r}
+News_paper <- read_html("https://www.naiz.eus/")
+
+print(News_paper)
+```
+
+## 3 - Find the CSS
+
+Like we see, we have the newspaper html structure in our variable. Once this is donne, we need to extract the css responsabile for the titles of the newspaper. For this task we can do it manually, clicking in the right button on the mouse and selecting the "inspect" option we can find manually the common css for all the titles of the articles.
+
+![](CSS_manually.png)
+We can see that the common class or css por the articles is article, but if we move the mouse on the articles, we will see that the css us for all the article, no only the title. This way we need to split the article class to see how it the article divided in different classes to see what css is the correct one.
+
+![](CSS_manually_title.png)
+Like we see, the css "article__title" is our appropiate css we need to use to extract the title of the article. 
+
+Other way to do this more easy, is to install add ons we can use for this task (I use [SelectorHub](#0) for Firefox and [Selectorgadget](#0) for chrome navigator). This way we can select easier the css we want to dowload. In our case is
+
+## 4 - Extract the titles
+
+First of all we have to ensure that our css is apropuiate. For this lets try first to extract the first title. For this, first we have to stablish the csss like a node in wich we want extract and then extract the text of the node we determinate. 
+
+```{r}
+News_paper_title <- News_paper %>% html_node(".article__title") %>% html_text()
+print(News_paper_title)
+```
+
+We can see the the first title of the webpage, lets see if how we can get the second one. 
+
+```{r}
+News_paper_title_second <- News_paper %>% html_node(".article__title:nth-child(2)") %>% html_text()
+print(News_paper_title)
+```
+
+We can access to the "childs" of the css this way.
+
+Now, we want all the titles toguether in one variable. Lets try to find trought the SelectorGadget in google chrome. For this goal we need to find apropiate css selecting with the add on. Once we see all the titles selected, we can try if all is correct with the selected css.  
+
+![](CSS_selector.png)
+
+```{r, results ='hold'}
+News_paper_titles <- News_paper %>% html_nodes(".article__title a") %>% html_text()
+News_paper_titles
+```
+
+Now we can use one of multiples packages avaible to clean the text, but to do it simple, we can do it ease witn the function gsub()-
+
+```{r}
+News_paper_titles <- gsub("\n        \n|\n        ","",News_paper_titles)
+News_paper_titles
+```
+
+
+Lets complciate the work I little bit more. Lets try now to extract the urls for each new and the autor of the articles in the newsdpaper. Same as before, we try to find manually and by the gadget the article author.
+
+```{r}
+
+News_paper_authors <- News_paper %>% html_nodes(".article__author") %>% html_text()
+
+News_paper_authors
+```
+
+
+
+### 3 - Tabsets
+
+```{r, echo = F}
+knitr::opts_chunk$set(collapse = T)
+library(tidyverse)
+dat <- palmerpenguins::penguins %>% 
+  filter(!is.na(sex))
+
+lm.mod <- dat %>%
+  mutate(
+    sex = if_else(sex == 'male', 1, 0),
+  ) %>% 
+  lm(data = ., sex ~ body_mass_g + bill_length_mm + species) 
+
+preds_lm <- dat %>% 
+  mutate(
+    prob.fit = plogis(lm.mod$fitted.values),
+    prediction = if_else(prob.fit > 0.5, 'male', 'female'),
+    correct = if_else(sex == prediction, 'correct', 'incorrect')
+  )
+```
+
+::: panel-tabset
+### Transforming OLS estimates
+
+```{r}
+#| code-fold: true
+preds_lm %>% 
+  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +
+  geom_jitter(size = 4, alpha = 0.6) +
+  facet_wrap(vars(species)) +
+  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +
+  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = 'top', 
+    panel.background = element_rect(color = 'black'),
+    panel.grid.minor = element_blank()
+  ) +
+  labs(
+    x = 'Body mass (in g)',
+    y = 'Bill length (in mm)'
+  )
+```
+
+### Maximizing likelihood
+
+```{r}
+#| code-fold: true
+glm.mod <- glm(sex ~ body_mass_g + bill_length_mm + species, family = binomial, data = dat)
+
+preds <- dat %>% 
+  mutate(
+    prob.fit = glm.mod$fitted.values,
+    prediction = if_else(prob.fit > 0.5, 'male', 'female'),
+    correct = if_else(sex == prediction, 'correct', 'incorrect')
+  )
+
+
+preds %>% 
+  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +
+  geom_jitter(size = 4, alpha = 0.6) +
+  facet_wrap(vars(species)) +
+  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +
+  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +
+  theme_minimal(base_size = 10) +
+  theme(
+    legend.position = 'top', 
+    panel.background = element_rect(color = 'black'),
+    panel.grid.minor = element_blank()
+  ) +
+  labs(
+    x = 'Body mass (in g)',
+    y = 'Bill length (in mm)'
+  )
+```
+:::
+
+#### 4 - Some math stuff
+
+$$
+\int_0^1 f(x) \ dx
+$$
+
+## 2 - Columns
+
+::: {layout="[[1,1]]"}
+```{r}
+#| eval: false
+#| echo: true
+geom_density(
+  mapping = NULL,
+  data = NULL,
+  stat = "density",
+  position = "identity",
+  ...,
+  na.rm = FALSE,
+  orientation = NA,
+  show.legend = NA,
+  inherit.aes = TRUE,
+  outline.type = "upper"
+)
+```
+
+```{r}
+#| eval: false
+#| echo: true
+stat_density(
+  mapping = NULL,
+  data = NULL,
+  geom = "area",
+  position = "stack",
+  ...,
+  bw = "nrd0",
+  adjust = 1,
+  kernel = "gaussian",
+  n = 512,
+  trim = FALSE,
+  na.rm = FALSE,
+  orientation = NA,
+  show.legend = NA,
+  inherit.aes = TRUE
+)
+```
+:::
+
+## 2 - Margin captions
+
+```{r}
+#| fig-cap: "Bla bla bla. This is a caption in the margin. Super cool isn't it?"
+#| fig-cap-location: margin
+ggplot(data = gapminder::gapminder, mapping = aes(x = lifeExp, fill = continent)) +
+  stat_density(position = "identity", alpha = 0.5)
+```
