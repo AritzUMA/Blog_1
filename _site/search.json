@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Communication Studies in R and Python",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nLa utilización del doble eje Y\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\nAritz Gorostiza\n\n\n\n\n\n\n  \n\n\n\n\nSocial Media and Data adquisition: Forget the APIs\n\n\n\n\n\n\n\nSocial media\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\nAritz Gorostiza\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 29, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Aritz Gorostiza",
+    "section": "",
+    "text": "EU: Doktoretzako ikaslea Malagako Unibertsitatean\nEN: PhD student in the University of Malaga\nES: Estudiante de Doctorando en la Universidad de Málaga\n\nPh.D. candidate in the Interuniversity Ph.D. Program in Communication at the Universities of Málaga, Huelva, Seville, and Cádiz, specializing in the field of Communication. Currently employed as a Predoctoral Fellow (FPU) in the Department of Communication and Advertising at the University of Málaga. Holds degrees in Political Science and Public Administration, as well as a Master’s in Strategic Thinking and Global Security from the University of Granada. Has undertaken research stays at the University of Bologna, Sofia University, and the University of Coimbra. Research interests primarily revolve around data mining, data center construction, and data analysis, with a focus on digital media and social networks. Main research efforts are dedicated to exploring the dynamics of influence among digital media, interest groups, and European construction."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/new_blog_post/post.html",
+    "href": "posts/new_blog_post/post.html",
+    "title": "La utilización del doble eje Y",
+    "section": "",
+    "text": "Hola este es el primer post de prueba"
+  },
+  {
+    "objectID": "posts/Twitter/Twitter.html",
+    "href": "posts/Twitter/Twitter.html",
+    "title": "Social Media and Data adquisition: Forget the APIs",
+    "section": "",
+    "text": "The use of twitter analisys has become immposiblle for the researchers.\n\nAunque pueda parecer un titular un poco agresivo, las API son fundamentales para los diferentes servicios de internet para no realentizar las interfaces de las páginas webs, estas se están volviendo en un negocio, no una forma de protección de las e3mpresas que gestionan las paáginas.\n\nAdemás noe stamos hablando del uso de las APIs con pretensiones comerciales, aunque lo fueran. La información que el usuario ve en cualquiera de las redes sociales que se encuetra es una informaciuón pública, no tiene un caracter\n\n\nLa imposibilidad de trackear a lo alrgo del tiempo las estrategias comunicativas de los usuarios como la imposibilida de obstener información de forma constante.\nLa verificaciónd e los usuarios y el coste que trajo consigo también es y ha sido un tema de conflicto entre los diferentes usuarios.\nEsto lleva a los investigadores sociales, y concretamente a aquellos que se dedican al análsis de las relaciones públicas a tener que desistir a utilizar twitter como medio importante de análsis, no porque no sea relevante, sino que porque les es imposible realizar análsis sistematicos a lo alrgo del tiempo.\n\nEsto se debe a diferentes limitaciones impuestas por parte de Elon Muskl ty su nueva políutica tras la adquisición de twitter, que pone precio e incluso limita el número de tweets mensuales que los usuarios se pueden descargar para el anáisis.\nAunque todavia existan diferentes métodos para descargar tweets mediante la API (Application Programming Interface), estos quedan limitados a la imposibilidad de poder realizar aálsis sistematicos a lo largo del tiempo.\nActualmente las tarifas para poder descargar twitts se quedan de la suiguiente forma:\nOtra de las politicas mas relevantes de twitter ha sido la monitización de los canales. Es decir, dependiendo de diversas variables no establecidas pero que tienen que ver con el engachment, el usuario puede obtener una reconpensa economica siempre y cuando esté pagando la verificación.\n\nLas tarifas anteriores VS las tarifas actuales\nHasta estos dias la utilización de las APIs no venia determinada por el dinero que se pagaban por ellas, sino que para pasar de una básica a un grado mayor se debia de justificar porque se necesitaba. Incluso existia una API para investigadores, unlimited que se podían hacer descargas masivas de usuarios.\nsin querer entrar en el palo para los community managers y atomatización de twitts, que\nActualimente, con la cuenta básica, se pueden descargar 1500 tweets mensuales o se puedes escribir 1500 tweets, y la máxima se encuentra en 500$ mensuales y la descarga de un millon de tweets.\nEs decir, se suprime la posibilidad de descargas ilimitadas de tweets, muy valida para los investigadores y las nuevas tñécnvias de analissi de discursos\nLa guerra de twitter contra la adquisición de datos por parte de de investigadores y usuarios se ha extendido con la entrada de Elon Musk. Anteriormente las diferentes tarifas muchísimo más bajas para la utilización de la API hacian viables múltiples investigaciones y análsis de datos,\n\nNo es la única plataforma que lo hace, hay que tener en consideración que muchos de los usuarios\nNUevas herramientas:\nPython:\nSnscrape\nR:\n\nTwitterR\n\n\nEsto ha traido varias quejas:\n\n\nLos usuarios tenderán a twitterar más, siendo los usuarios más comerciales, aumentando el spam con pretensiones económicas, desdibujando el caracter de plaza pública que habia adquirido el"
+  }
+]

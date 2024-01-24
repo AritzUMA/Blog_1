@@ -1,0 +1,30 @@
+---
+title: "Aritz Gorostiza"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/ObsTwit
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aritz-gorostiza-1b9b9752/
+    - icon: github
+      text: Github
+      href: https://github.com/AritzUMA
+    - icon: orcid
+      text: Orcid
+      href: https://orcid.org/0000-0002-7844-0036
+    - icon: googlescholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=nIGfpSEAAAAJ&hl=es
+---
+
+EU: Doktoretzako ikaslea Malagako Unibertsitatean
+
+EN: PhD student in the University of Malaga
+
+ES: Estudiante de Doctorando en la Universidad de Málaga\
+
+Ph.D. candidate in the Interuniversity Ph.D. Program in Communication at the Universities of Málaga, Huelva, Seville, and Cádiz, specializing in the field of Communication. Currently employed as a Predoctoral Fellow (FPU) in the Department of Communication and Advertising at the University of Málaga. Holds degrees in Political Science and Public Administration, as well as a Master's in Strategic Thinking and Global Security from the University of Granada. Has undertaken research stays at the University of Bologna, Sofia University, and the University of Coimbra. Research interests primarily revolve around data mining, data center construction, and data analysis, with a focus on digital media and social networks. Main research efforts are dedicated to exploring the dynamics of influence among digital media, interest groups, and European construction.

@@ -1,0 +1,60 @@
+---
+title: "Social Media and Data adquisition: Forget the APIs"
+author: "Aritz Gorostiza"
+date: "2023-09-01"
+categories: [Social media, code, analysis]
+image: "twitter.png"
+---
+
+The use of twitter analisys has become immposiblle for the researchers.\
+
+Aunque pueda parecer un titular un poco agresivo, las API son fundamentales para los diferentes servicios de internet para no realentizar las interfaces de las páginas webs, estas se están volviendo en un negocio, no una forma de protección de las e3mpresas que gestionan las paáginas.\
+\
+Además noe stamos hablando del uso de las APIs con pretensiones comerciales, aunque lo fueran. La información que el usuario ve en cualquiera de las redes sociales que se encuetra es una informaciuón pública, no tiene un caracter\
+
+\
+La imposibilidad de trackear a lo alrgo del tiempo las estrategias comunicativas de los usuarios como la imposibilida de obstener información de forma constante.
+
+La verificaciónd e los usuarios y el coste que trajo consigo también es y ha sido un tema de conflicto entre los diferentes usuarios.
+
+Esto lleva a los investigadores sociales, y concretamente a aquellos que se dedican al análsis de las relaciones públicas a tener que desistir a utilizar twitter como medio importante de análsis, no porque no sea relevante, sino que porque les es imposible realizar análsis sistematicos a lo alrgo del tiempo.\
+\
+Esto se debe a diferentes limitaciones impuestas por parte de Elon Muskl ty su nueva políutica tras la adquisición de twitter, que pone precio e incluso limita el número de tweets mensuales que los usuarios se pueden descargar para el anáisis.
+
+Aunque todavia existan diferentes métodos para descargar tweets mediante la API (Application Programming Interface), estos quedan limitados a la imposibilidad de poder realizar aálsis sistematicos a lo largo del tiempo.
+
+Actualmente las tarifas para poder descargar twitts se quedan de la suiguiente forma:
+
+Otra de las politicas mas relevantes de twitter ha sido la monitización de los canales. Es decir, dependiendo de diversas variables no establecidas pero que tienen que ver con el *engachment*, el usuario puede obtener una reconpensa economica siempre y cuando esté pagando la verificación.
+
+### Las tarifas anteriores VS las tarifas actuales
+
+Hasta estos dias la utilización de las APIs no venia determinada por el dinero que se pagaban por ellas, sino que para pasar de una básica a un grado mayor se debia de justificar porque se necesitaba. Incluso existia una API para investigadores, *unlimited* que se podían hacer descargas masivas de usuarios.
+
+sin querer entrar en el palo para los *community managers* y atomatización de twitts, que
+
+Actualimente, con la cuenta básica, se pueden descargar 1500 tweets mensuales o se puedes escribir 1500 tweets, y la máxima se encuentra en 500\$ mensuales y la descarga de un millon de tweets.
+
+Es decir, se suprime la posibilidad de descargas ilimitadas de tweets, muy valida para los investigadores y las nuevas tñécnvias de analissi de discursos
+
+La guerra de twitter contra la adquisición de datos por parte de de investigadores y usuarios se ha extendido con la entrada de Elon Musk. Anteriormente las diferentes tarifas muchísimo más bajas para la utilización de la API hacian viables múltiples investigaciones y análsis de datos,\
+\
+No es la única plataforma que lo hace, hay que tener en consideración que muchos de los usuarios
+
+NUevas herramientas:
+
+Python:
+
+**Snscrape**
+
+R:\
+\
+TwitterR
+
+\
+\
+Esto ha traido varias quejas:\
+
+-   Los usuarios tenderán a twitterar más, siendo los usuarios más comerciales, aumentando el *spam* con pretensiones económicas, desdibujando el caracter de plaza pública que habia adquirido el
+
+-   
