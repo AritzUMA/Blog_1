@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Aritz Gorostiza</title>
+<link>https://AritzUMA.github.io/Blog_1/blog.html</link>
+<atom:link href="https://AritzUMA.github.io/Blog_1/blog.xml" rel="self" type="application/rss+xml"/>
+<description>This is Albert Rapp&#39;s personal Blog.</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Thu, 31 Aug 2023 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Social Media and Data adquisition: Forget the APIs</title>
+  <dc:creator>Aritz Gorostiza</dc:creator>
+  <link>https://AritzUMA.github.io/Blog_1/posts/Twitter/Twitter.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>The use of twitter analisys has become immposiblle for the researchers.<br>
+</p>
+<p>Aunque pueda parecer un titular un poco agresivo, las API son fundamentales para los diferentes servicios de internet para no realentizar las interfaces de las páginas webs, estas se están volviendo en un negocio, no una forma de protección de las e3mpresas que gestionan las paáginas.<br>
+<br>
+Además noe stamos hablando del uso de las APIs con pretensiones comerciales, aunque lo fueran. La información que el usuario ve en cualquiera de las redes sociales que se encuetra es una informaciuón pública, no tiene un caracter<br>
+</p>
+<p><br>
+La imposibilidad de trackear a lo alrgo del tiempo las estrategias comunicativas de los usuarios como la imposibilida de obstener información de forma constante.</p>
+<p>La verificaciónd e los usuarios y el coste que trajo consigo también es y ha sido un tema de conflicto entre los diferentes usuarios.</p>
+<p>Esto lleva a los investigadores sociales, y concretamente a aquellos que se dedican al análsis de las relaciones públicas a tener que desistir a utilizar twitter como medio importante de análsis, no porque no sea relevante, sino que porque les es imposible realizar análsis sistematicos a lo alrgo del tiempo.<br>
+<br>
+Esto se debe a diferentes limitaciones impuestas por parte de Elon Muskl ty su nueva políutica tras la adquisición de twitter, que pone precio e incluso limita el número de tweets mensuales que los usuarios se pueden descargar para el anáisis.</p>
+<p>Aunque todavia existan diferentes métodos para descargar tweets mediante la API (Application Programming Interface), estos quedan limitados a la imposibilidad de poder realizar aálsis sistematicos a lo largo del tiempo.</p>
+<p>Actualmente las tarifas para poder descargar twitts se quedan de la suiguiente forma:</p>
+<p>Otra de las politicas mas relevantes de twitter ha sido la monitización de los canales. Es decir, dependiendo de diversas variables no establecidas pero que tienen que ver con el <em>engachment</em>, el usuario puede obtener una reconpensa economica siempre y cuando esté pagando la verificación.</p>
+<section id="las-tarifas-anteriores-vs-las-tarifas-actuales" class="level3">
+<h3 class="anchored" data-anchor-id="las-tarifas-anteriores-vs-las-tarifas-actuales">Las tarifas anteriores VS las tarifas actuales</h3>
+<p>Hasta estos dias la utilización de las APIs no venia determinada por el dinero que se pagaban por ellas, sino que para pasar de una básica a un grado mayor se debia de justificar porque se necesitaba. Incluso existia una API para investigadores, <em>unlimited</em> que se podían hacer descargas masivas de usuarios.</p>
+<p>sin querer entrar en el palo para los <em>community managers</em> y atomatización de twitts, que</p>
+<p>Actualimente, con la cuenta básica, se pueden descargar 1500 tweets mensuales o se puedes escribir 1500 tweets, y la máxima se encuentra en 500$ mensuales y la descarga de un millon de tweets.</p>
+<p>Es decir, se suprime la posibilidad de descargas ilimitadas de tweets, muy valida para los investigadores y las nuevas tñécnvias de analissi de discursos</p>
+<p>La guerra de twitter contra la adquisición de datos por parte de de investigadores y usuarios se ha extendido con la entrada de Elon Musk. Anteriormente las diferentes tarifas muchísimo más bajas para la utilización de la API hacian viables múltiples investigaciones y análsis de datos,<br>
+<br>
+No es la única plataforma que lo hace, hay que tener en consideración que muchos de los usuarios</p>
+<p>NUevas herramientas:</p>
+<p>Python:</p>
+<p><strong>Snscrape</strong></p>
+<p>R:<br>
+<br>
+TwitterR</p>
+<p><br>
+<br>
+Esto ha traido varias quejas:<br>
+</p>
+<ul>
+<li><p>Los usuarios tenderán a twitterar más, siendo los usuarios más comerciales, aumentando el <em>spam</em> con pretensiones económicas, desdibujando el caracter de plaza pública que habia adquirido el</p></li>
+<li></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Social media</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://AritzUMA.github.io/Blog_1/posts/Twitter/Twitter.html</guid>
+  <pubDate>Thu, 31 Aug 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://AritzUMA.github.io/Blog_1/posts/Twitter/twitter.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>La utilización del doble eje Y</title>
+  <dc:creator>Aritz Gorostiza</dc:creator>
+  <link>https://AritzUMA.github.io/Blog_1/posts/new_blog_post/post.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Hola este es el primer post de prueba</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://AritzUMA.github.io/Blog_1/posts/new_blog_post/post.html</guid>
+  <pubDate>Thu, 31 Aug 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://AritzUMA.github.io/Blog_1/posts/new_blog_post/ggplot.png" medium="image" type="image/png" height="86" width="144"/>
+</item>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://AritzUMA.github.io/Blog_1/posts/post-with-code/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>This is a post with executable code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://AritzUMA.github.io/Blog_1/posts/post-with-code/index.html</guid>
+  <pubDate>Thu, 31 Aug 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://AritzUMA.github.io/Blog_1/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://AritzUMA.github.io/Blog_1/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://AritzUMA.github.io/Blog_1/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://AritzUMA.github.io/Blog_1/posts/welcome/index.html</guid>
+  <pubDate>Mon, 28 Aug 2023 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Rvest package fof Web Scraping: Newspaper example</title>
+  <dc:creator>Aritz Gorostiza</dc:creator>
+  <link>https://AritzUMA.github.io/Blog_1/posts/Rvest/rvest.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><img src="https://AritzUMA.github.io/Blog_1/posts/Rvest/rvest.png" class="img-fluid"></p>
+<section id="ethic-webscraping" class="level1">
+<h1>Ethic Webscraping</h1>
+<p>The first thing we have to know is that the web sraping is a automatization of the webpages publiclky avaible information. There is a several legislations about this tecnique, like the <a href="https://gdpr.eu/">GDPR</a> in Europe, in wich is delimeted for the Personal data or Personally Identifiablke Information (PII). So, we have to avoid the problematic question of the scraping personal data of european citizens and if we have to do it, follow the legals questions regarded in the GDPR.</p>
+<p>Apart from the legal cuestion, it is impiortant to know that webscraping is technique that relantizes the servers of the companies if we do it very agressivly. Is for this that we have to priorice the APIs (Aplication Programminf Interface) avaiable for the webpages if there are. This aplications are prepared to dowload the information and don’t disturb the normal function of the servers of the webpages.<br>
+<br>
+Knowing this information, we can start with the first of the 4 packages to webscraping information in R: Rvest.</p>
+<section id="first-steps" class="level2">
+<h2 class="anchored" data-anchor-id="first-steps">First steps</h2>
+<p>The rvest package have his own <a href="https://rvest.tidyverse.org/">website</a> and is avaiable the full documentation in the <a href="https://cran.r-project.org/web/packages/rvest/rvest.pdf">CRAN</a> repository. Is a very easy package to use and to deal with, in wich the principal focus is in the html structure and there csss, tags or Xpaths between others. Lets try to do this easy tutorial with a <a href="https://www.naiz.eus/">naiz.eus</a> webpage and the news that are avaiable.</p>
+</section>
+<section id="install-and-load-the-library" class="level2">
+<h2 class="anchored" data-anchor-id="install-and-load-the-library">1 - Install and load the library</h2>
+<p>Like always, we need install the pacakge.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"rvest"</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>The following package(s) will be installed:
+- rvest [1.0.3]
+These packages will be installed into "~/MEGAsync/Proyectos/Blog_1/renv/library/R-4.1/x86_64-pc-linux-gnu".
+
+# Installing packages --------------------------------------------------------
+- Installing rvest ...                          OK [linked from cache]
+Successfully installed 1 package in 8 milliseconds.</code></pre>
+</div>
+</div>
+<p>Once the package is installed, we need “call” the package to use their functions.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(rvest)</span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse)</span></code></pre></div>
+</div>
+</section>
+<section id="read-the-page" class="level2">
+<h2 class="anchored" data-anchor-id="read-the-page">2 - Read the page</h2>
+<p>First of all we need to read the page in pur local machine, is for this that we need to use read_html() function to save the html structure in the variable.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">News_paper <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read_html</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://www.naiz.eus/"</span>)</span>
+<span id="cb4-2"></span>
+<span id="cb4-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">print</span>(News_paper)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{html_document}
+&lt;html lang="eu" xml:lang="eu"&gt;
+[1] &lt;head&gt;\n&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8 ...
+[2] &lt;body&gt;\n&lt;div data-controller="cookies" data-cookies-content-value="&amp;lt;h2 ...</code></pre>
+</div>
+</div>
+</section>
+<section id="find-the-css" class="level2">
+<h2 class="anchored" data-anchor-id="find-the-css">3 - Find the CSS</h2>
+<p>Like we see, we have the newspaper html structure in our variable. Once this is donne, we need to extract the css responsabile for the titles of the newspaper. For this task we can do it manually, clicking in the right button on the mouse and selecting the “inspect” option we can find manually the common css for all the titles of the articles.</p>
+<p><img src="https://AritzUMA.github.io/Blog_1/posts/Rvest/CSS_manually.png" class="img-fluid"> We can see that the common class or css por the articles is article, but if we move the mouse on the articles, we will see that the css us for all the article, no only the title. This way we need to split the article class to see how it the article divided in different classes to see what css is the correct one. We will see something like this image, in wich each article is separated in different css</p>
+<p><img src="https://AritzUMA.github.io/Blog_1/posts/Rvest/CSS_manually_title.png" class="img-fluid"> Like we see, the css “article__title” is our appropiate css we need to use to extract the title of the article.</p>
+<p>Other way to do this more easy, is to install add ons we can use for this task (I use SelectorHub for Firefox and Selectorgadget for chrome navigator). This way we can select easier the css we want to dowload. In our case is</p>
+</section>
+<section id="extract-the-css-information" class="level2">
+<h2 class="anchored" data-anchor-id="extract-the-css-information">4 - Extract the css information</h2>
+<p>First of all we have to ensure that our css is apropuiate. For this lets try first to extract the first title. For this, first we have to stablish the csss like a node in wich we want extract and then extract the text of the node we determinate.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">News_paper_title <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> News_paper <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html_node</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".article__title"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html_text</span>()</span>
+<span id="cb6-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">print</span>(News_paper_title)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "\n      Migrazio Legearen hainbat neurri atzera bota ditu Kontseilu Konstituzionalak\n      \n    "</code></pre>
+</div>
+</div>
+<p>We can see the the first title of the webpage, lets see if how we can get the second one.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">News_paper_title_second <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> News_paper <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html_node</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".article__title:nth-child(2)"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html_text</span>()</span>
+<span id="cb8-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">print</span>(News_paper_title)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "\n      Migrazio Legearen hainbat neurri atzera bota ditu Kontseilu Konstituzionalak\n      \n    "</code></pre>
+</div>
+</div>
+<p>We can access to the “childs” of the css this way.</p>
+<p>Now, we want all the titles toguether in one variable. Lets try to find trought the SelectorGadget in google chrome. For this goal we need to find apropiate css selecting with the add on. Once we see all the titles selected, we can try if all is correct with the selected css.</p>
+<p><img src="https://AritzUMA.github.io/Blog_1/posts/Rvest/CSS_selector.png" class="img-fluid"></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">News_paper_titles <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> News_paper <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html_nodes</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".article__title a"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html_text</span>()</span>
+<span id="cb10-2">News_paper_titles</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "Migrazio Legearen hainbat neurri atzera bota ditu Kontseilu Konstituzionalak"                                         
+ [2] "Nafarroa reitera que a la empresa de Artaxoa no se enviaban lodos desde Zubieta, sino líquidos"                       
+ [3] "TJUE: el plazo para reclamar los gastos hipotecarios empieza cuando el cliente conoce el fraude"                      
+ [4] "Williams anaien kondairaren azken pasartea, Hollywoodeko gidoi baterako aproposa"                                     
+ [5] "‘Hijas del fuego’, una miniserie sobre la caza de brujas en Zugarramurdi"                                             
+ [6] "\n        La Diputación de Bizkaia contradice a Urkullu: los dos años son para ver cómo será el museo\n        \n"    
+ [7] "\n        EH Bildu alcanza con PSE y PNV un pacto presupuestario en Gasteiz por 6 millones de euros\n        \n"      
+ [8] "\n        Joseba Diez hautagai gisa babestu dute EAJren afiliatuek, zuzendaritzak proposatu ez bazuen ere\n        \n"
+ [9] "\n        Solo el PP no quiere dar pasos hacia la declaración de Donostia como ciudad tensionada\n        \n"         
+[10] "Proyecto BCC en Gros-Ulía, ¿capricho o cabezonería de los cocineros estrellas?"                                       
+[11] "\n        PNV y PSE impiden debatir una moción de urgencia sobre la tala de árboles en Gros\n        \n"              
+[12] "\n        Más de 96.000 personas están en riesgo de pobreza en Nafarroa, casi una de cada seis\n        \n"           
+[13] "\n        Denuncian un «trato indigno» hacia personas sin hogar en las Urgencias Sociales de Bilbo\n        \n"       
+[14] "\n        Lanik gabe dauden gazteen %72k 2024an lana aurkituko duela uste du\n        \n"                             
+[15] "\n        Fallece una persona en un choque frontal cerca del alto de Gaintxurizketa\n        \n"                      
+[16] "\n        Aniztasuna\n        \n"                                                                                     
+[17] "\n        La fiscal mantiene la petición de casi quince años para los acusados por la paliza de Zornotza\n        \n" 
+[18] "\n        «Instituzioen logika XX. mendekoa da: bidea egin baino gehiago, bidea urratu egin behar da»\n        \n"    
+[19] "\n        Astigarraga eta Hernanik bisitariei zuzendutako mezua: «Ez da sagardoa, zu zara. Hartu ardura!»\n        \n"
+[20] "\n        Gorrotxategi se postula a las primarias en Podemos sin acuerdo aún con el resto de fuerzas\n        \n"     
+[21] "\n        Esparza dice que la adjudicación de Belate «apesta» y el Gobierno defiende su legalidad\n        \n"        
+[22] "\n        La FNSEA reclama una moratoria en la prohibición de usar pesticidas\n        \n"                            
+[23] "\n        Los bomberos de Donostia acuden al Pleno para denunciar que no han mejorado sus condiciones\n        \n"    
+[24] "\n        LAB denuncia la escasez de uniformes, sábanas y mantas en el hospital de Basurto\n        \n"               
+[25] "\n        Sindicatos se concentran en Gasteiz para pedir que se cumplan las medidas de salud laboral\n        \n"     
+[26] "\n        Gazako biztanleriaren erdia baino gehiago Rafahn pilatuta dago, NBEren arabera\n        \n"                 
+[27] "Gaza: encendamos la luz de la solidaridad"                                                                            
+[28] "\n        Migrazio legearen alde bozkatu zuten hautetsien argazkiekin afitxak jarri ditu Bizi!k\n        \n"          
+[29] "\n        El juez no descarta el «ánimo homicida» en la causa de Tsunami para evitar la Ley de Amnistía\n        \n"  
+[30] "\n        Las milicias iraquíes proiraníes instan a extender sus ataques al Mediterráneo\n        \n"                 
+[31] "\n        El BCE mantiene los tipos de interés en el 4,5% por tercera vez consecutiva\n        \n"                    
+[32] "\n        Las lentejas, el tocino y la velocidad\n        \n"                                                         
+[33] "\n        Un niño sordo escucha por primera vez tras un innovador tratamiento génico en EEUU\n        \n"             
+[34] "\n        Elurra bezain zuria: ezohiko pinguino bat Antartikan\n        \n"                                           
+[35] "\n        Los hermanos Williams llegan a tiempo y desatan la locura en San Mamés (4-2)\n        \n"                   
+[36] "\n        La AN propone juzgar a Luis Rubiales por el beso «no consentido» a Jenni Hermoso\n        \n"               
+[37] "\n        La Real confirma la cesión del lateral Javi Galán, procedente del Atlético\n        \n"                     
+[38] "\n        Nicolás Alustiza, ilusionado tras sus primeros días como ciclista profesional con el Euskaltel\n        \n" 
+[39] "\n        ‘Euskararen baloia’ ekimenaren edizio berriari hasiera eman dio Eibarrek\n        \n"                       
+[40] "\n        Kilian Jornetek eta Zach Millerrek eliteko korrikalariei eskatu diete UTMB-i boikota egitea\n        \n"    
+[41] "\n        Jordan Theodore, tardío regalo navideño que viene para que Baskonia sea mejor equipo\n        \n"           
+[42] "\n        Bilbao Basket ya sabe lo que es perder en Europa y lía un tanto su pase a cuartos (82-80)\n        \n"      
+[43] "\n        «Lokalean bertsioekin jolasean hasi eta disko bat osatzeko erronka bete dugu»\n        \n"                  
+[44] "dFeria cumple 30 años con Italia como país invitado, bajo el lema ‘Utopía’"                                           
+[45] "\n        Musika Bulegoa: «2023a urte ona izan da zuzeneko musikarentzat»\n        \n"                                
+[46] "\n        ‘Ama’ diskoa aurkeztu du Tenpora taldeak, sei abesti berriz osatutako lana\n        \n"                     
+[47] "Isabel Azkaratek artearekin eta sortzaileekin duen harremanaren lekuko da San Telmo"                                  
+[48] "Atzar Hadi! ikuskizuna Oialume Biltokian"                                                                             
+[49] "Jon Gurrutxaga Marruma Kulturaletan"                                                                                  
+[50] "Letagin eta Nevadah indarrak batuz Ondarrun"                                                                          
+[51] "Lausoka Txantreako Akelarre elkartean"                                                                                
+[52] "Musikagaz Fest! jaialdiaren bigarren edizioa egingo dute Zornotzan"                                                   
+[53] "\n        «Erresilientzia ez da presioa jasatea soilik, baizik eta esperientzietatik indartuta ateratzea»\n        \n"
+[54] "\n        Getariatik mundura: Cristobal Balenciaga\n        \n"                                                       
+[55] "\n        «Beldur naiz, akordio zabalen alde, abertzaletasuna alboratzen ari ez ote garen»\n        \n"               
+[56] "\n        Kaiman uharteak; finantzak, hondartzak eta askoz gehiago\n        \n"                                       
+[57] "\n        Zetaren Bideko hirietan zehar\n        \n"                                                                  
+[58] "\n        Urederra, harribitxi urdin turkesa, Urbasa mendilerroan\n        \n"                                        
+[59] "\n        «Lokalean bertsioekin jolasean hasi eta disko bat osatzeko erronka bete dugu»\n        \n"                  </code></pre>
+</div>
+</div>
+<p>Now we can use one of multiples packages avaible to clean the text, but to do it simple, we can do it ease witn the function gsub()</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">News_paper_titles <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gsub</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">        </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">|</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">        "</span>,<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>,News_paper_titles)</span>
+<span id="cb12-2">News_paper_titles</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "Migrazio Legearen hainbat neurri atzera bota ditu Kontseilu Konstituzionalak"                   
+ [2] "Nafarroa reitera que a la empresa de Artaxoa no se enviaban lodos desde Zubieta, sino líquidos" 
+ [3] "TJUE: el plazo para reclamar los gastos hipotecarios empieza cuando el cliente conoce el fraude"
+ [4] "Williams anaien kondairaren azken pasartea, Hollywoodeko gidoi baterako aproposa"               
+ [5] "‘Hijas del fuego’, una miniserie sobre la caza de brujas en Zugarramurdi"                       
+ [6] "La Diputación de Bizkaia contradice a Urkullu: los dos años son para ver cómo será el museo"    
+ [7] "EH Bildu alcanza con PSE y PNV un pacto presupuestario en Gasteiz por 6 millones de euros"      
+ [8] "Joseba Diez hautagai gisa babestu dute EAJren afiliatuek, zuzendaritzak proposatu ez bazuen ere"
+ [9] "Solo el PP no quiere dar pasos hacia la declaración de Donostia como ciudad tensionada"         
+[10] "Proyecto BCC en Gros-Ulía, ¿capricho o cabezonería de los cocineros estrellas?"                 
+[11] "PNV y PSE impiden debatir una moción de urgencia sobre la tala de árboles en Gros"              
+[12] "Más de 96.000 personas están en riesgo de pobreza en Nafarroa, casi una de cada seis"           
+[13] "Denuncian un «trato indigno» hacia personas sin hogar en las Urgencias Sociales de Bilbo"       
+[14] "Lanik gabe dauden gazteen %72k 2024an lana aurkituko duela uste du"                             
+[15] "Fallece una persona en un choque frontal cerca del alto de Gaintxurizketa"                      
+[16] "Aniztasuna"                                                                                     
+[17] "La fiscal mantiene la petición de casi quince años para los acusados por la paliza de Zornotza" 
+[18] "«Instituzioen logika XX. mendekoa da: bidea egin baino gehiago, bidea urratu egin behar da»"    
+[19] "Astigarraga eta Hernanik bisitariei zuzendutako mezua: «Ez da sagardoa, zu zara. Hartu ardura!»"
+[20] "Gorrotxategi se postula a las primarias en Podemos sin acuerdo aún con el resto de fuerzas"     
+[21] "Esparza dice que la adjudicación de Belate «apesta» y el Gobierno defiende su legalidad"        
+[22] "La FNSEA reclama una moratoria en la prohibición de usar pesticidas"                            
+[23] "Los bomberos de Donostia acuden al Pleno para denunciar que no han mejorado sus condiciones"    
+[24] "LAB denuncia la escasez de uniformes, sábanas y mantas en el hospital de Basurto"               
+[25] "Sindicatos se concentran en Gasteiz para pedir que se cumplan las medidas de salud laboral"     
+[26] "Gazako biztanleriaren erdia baino gehiago Rafahn pilatuta dago, NBEren arabera"                 
+[27] "Gaza: encendamos la luz de la solidaridad"                                                      
+[28] "Migrazio legearen alde bozkatu zuten hautetsien argazkiekin afitxak jarri ditu Bizi!k"          
+[29] "El juez no descarta el «ánimo homicida» en la causa de Tsunami para evitar la Ley de Amnistía"  
+[30] "Las milicias iraquíes proiraníes instan a extender sus ataques al Mediterráneo"                 
+[31] "El BCE mantiene los tipos de interés en el 4,5% por tercera vez consecutiva"                    
+[32] "Las lentejas, el tocino y la velocidad"                                                         
+[33] "Un niño sordo escucha por primera vez tras un innovador tratamiento génico en EEUU"             
+[34] "Elurra bezain zuria: ezohiko pinguino bat Antartikan"                                           
+[35] "Los hermanos Williams llegan a tiempo y desatan la locura en San Mamés (4-2)"                   
+[36] "La AN propone juzgar a Luis Rubiales por el beso «no consentido» a Jenni Hermoso"               
+[37] "La Real confirma la cesión del lateral Javi Galán, procedente del Atlético"                     
+[38] "Nicolás Alustiza, ilusionado tras sus primeros días como ciclista profesional con el Euskaltel" 
+[39] "‘Euskararen baloia’ ekimenaren edizio berriari hasiera eman dio Eibarrek"                       
+[40] "Kilian Jornetek eta Zach Millerrek eliteko korrikalariei eskatu diete UTMB-i boikota egitea"    
+[41] "Jordan Theodore, tardío regalo navideño que viene para que Baskonia sea mejor equipo"           
+[42] "Bilbao Basket ya sabe lo que es perder en Europa y lía un tanto su pase a cuartos (82-80)"      
+[43] "«Lokalean bertsioekin jolasean hasi eta disko bat osatzeko erronka bete dugu»"                  
+[44] "dFeria cumple 30 años con Italia como país invitado, bajo el lema ‘Utopía’"                     
+[45] "Musika Bulegoa: «2023a urte ona izan da zuzeneko musikarentzat»"                                
+[46] "‘Ama’ diskoa aurkeztu du Tenpora taldeak, sei abesti berriz osatutako lana"                     
+[47] "Isabel Azkaratek artearekin eta sortzaileekin duen harremanaren lekuko da San Telmo"            
+[48] "Atzar Hadi! ikuskizuna Oialume Biltokian"                                                       
+[49] "Jon Gurrutxaga Marruma Kulturaletan"                                                            
+[50] "Letagin eta Nevadah indarrak batuz Ondarrun"                                                    
+[51] "Lausoka Txantreako Akelarre elkartean"                                                          
+[52] "Musikagaz Fest! jaialdiaren bigarren edizioa egingo dute Zornotzan"                             
+[53] "«Erresilientzia ez da presioa jasatea soilik, baizik eta esperientzietatik indartuta ateratzea»"
+[54] "Getariatik mundura: Cristobal Balenciaga"                                                       
+[55] "«Beldur naiz, akordio zabalen alde, abertzaletasuna alboratzen ari ez ote garen»"               
+[56] "Kaiman uharteak; finantzak, hondartzak eta askoz gehiago"                                       
+[57] "Zetaren Bideko hirietan zehar"                                                                  
+[58] "Urederra, harribitxi urdin turkesa, Urbasa mendilerroan"                                        
+[59] "«Lokalean bertsioekin jolasean hasi eta disko bat osatzeko erronka bete dugu»"                  </code></pre>
+</div>
+</div>
+<p>Now we have vector with all the titles of the newspaper of the specific day.</p>
+</section>
+<section id="activities" class="level2">
+<h2 class="anchored" data-anchor-id="activities">5 - Activities</h2>
+<p>If you are still</p>
+<ul>
+<li><p>Try to extract all the links for each title (Tip, use htlm_attr instead and html_text(“href”))</p></li>
+<li><p>Try to extract the author of each new, and figure out what is the problem with the lenght of the vector</p></li>
+<li><p>Try to extract the lenguage of each new (What news are in basque and wich ones are in spanish? Do it thinking to do it automaticlly)</p></li>
+<li><p>Try to save all the data in a data frame, each information of the new for each title</p></li>
+</ul>
+<p>Thanks for see the article, and share it if you like it.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>123</category>
+  <category>Second Tag</category>
+  <guid>https://AritzUMA.github.io/Blog_1/posts/Rvest/rvest.html</guid>
+  <pubDate>Tue, 31 May 2022 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
