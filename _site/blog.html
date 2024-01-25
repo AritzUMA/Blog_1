@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Aritz Gorostiza - Communication Studies in R and Python</title>
+<title>Aritz Gorostiza – blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
@@ -145,115 +145,54 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Communication Studies in R and Python</h1>
+
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<section id="series" class="level1">
+<h1>Series</h1>
+<section id="ggplot2-series" class="level5">
+<h5 class="anchored" data-anchor-id="ggplot2-series"><a href="ggplot-series.html">ggplot2-series</a></h5>
+<p>This series contains a great deal of tips, tricks and packages that you can use to level up your ggplot game.</p>
+</section>
+</section>
+</div><div class="column" style="width:60%;">
+<section id="subscribe" class="level1">
+<h1>Subscribe</h1>
+<iframe id="beehiiv-form" src="https://embeds.beehiiv.com/9232d2a2-6e85-4beb-b8ed-1de94e9e4f01?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 75px; width: 90%;">
+</iframe>
+</section>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
+</div>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1693519200000" data-listing-file-modified-sort="1693593773234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html"> <img src="./posts/post-with-code/image.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/post-with-code/index.html">
-<h3 class="no-anchor listing-title">
-Post With Code
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<a href="./posts/post-with-code/index.html">
-<div class="listing-description">
-This is a post with executable code.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html">
-<div class="listing-date">
-Sep 1, 2023
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1693519200000" data-listing-file-modified-sort="1693675533335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/new_blog_post/post.html"> <img src="./posts/new_blog_post/ggplot.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/new_blog_post/post.html">
-<h3 class="no-anchor listing-title">
-La utilización del doble eje Y
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<a href="./posts/new_blog_post/post.html">
-<div class="listing-description">
-Hola este es el primer post de prueba
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/new_blog_post/post.html">
-<div class="listing-date">
-Sep 1, 2023
-</div>
-<div class="listing-author">
-Aritz Gorostiza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Social media,code,analysis" data-listing-date-sort="1693519200000" data-listing-file-modified-sort="1693766204349" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/Twitter/Twitter.html"> <img src="./posts/Twitter/twitter.png" class="thumbnail-image"> </a></p>
-</div>
+<div class="quarto-post image-right" data-index="0" data-categories="Social media,code,analysis" data-listing-date-sort="1693519200000" data-listing-file-modified-sort="1693766204349" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="body">
 <a href="./posts/Twitter/Twitter.html">
 <h3 class="no-anchor listing-title">
@@ -286,16 +225,89 @@ The use of twitter analisys has become immposiblle for the researchers.<br>
 <div class="listing-date">
 Sep 1, 2023
 </div>
-<div class="listing-author">
-Aritz Gorostiza
+<div class="listing-reading-time">
+3 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1693519200000" data-listing-file-modified-sort="1693675533335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="body">
+<a href="./posts/new_blog_post/post.html">
+<h3 class="no-anchor listing-title">
+La utilización del doble eje Y
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
+</div>
+<a href="./posts/new_blog_post/post.html">
+<div class="listing-description">
+Hola este es el primer post de prueba
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/new_blog_post/post.html">
+<div class="listing-date">
+Sep 1, 2023
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="news,code,analysis" data-listing-date-sort="1693519200000" data-listing-file-modified-sort="1693593773234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="body">
+<a href="./posts/post-with-code/index.html">
+<h3 class="no-anchor listing-title">
+Post With Code
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
+</div>
+<a href="./posts/post-with-code/index.html">
+<div class="listing-description">
+This is a post with executable code.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/post-with-code/index.html">
+<div class="listing-date">
+Sep 1, 2023
+</div>
+<div class="listing-reading-time">
+1 min
 </div>
 </a>
 </div>
 </div>
 <div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1693260000000" data-listing-file-modified-sort="1706129296587" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
 <div class="body">
 <a href="./posts/welcome/index.html">
 <h3 class="no-anchor listing-title">
@@ -321,16 +333,13 @@ This is the first post in a Quarto blog. Welcome!
 <div class="listing-date">
 Aug 29, 2023
 </div>
-<div class="listing-author">
-Tristan O’Malley
+<div class="listing-reading-time">
+1 min
 </div>
 </a>
 </div>
 </div>
 <div class="quarto-post image-right" data-index="4" data-categories="123,Second Tag" data-listing-date-sort="1654034400000" data-listing-file-modified-sort="1706209753272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="./posts/Rvest/rvest.html"> <p class="card-img-top"><img src="posts/Rvest/rvest.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
 <div class="body">
 <a href="./posts/Rvest/rvest.html">
 <h3 class="no-anchor listing-title">
@@ -359,8 +368,8 @@ Second Tag
 <div class="listing-date">
 Jun 1, 2022
 </div>
-<div class="listing-author">
-Aritz Gorostiza
+<div class="listing-reading-time">
+5 min
 </div>
 </a>
 </div>

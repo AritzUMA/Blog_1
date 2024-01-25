@@ -8,5 +8,15 @@
       "/posts/welcome/index.html",
       "/posts/Rvest/rvest.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/Twitter/Twitter.html",
+      "/posts/new_blog_post/post.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html",
+      "/posts/Rvest/rvest.html"
+    ]
   }
 ]

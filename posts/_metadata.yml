@@ -17,3 +17,7 @@ page-layout: article
 comments: 
   utterances: 
     repo:  AritzUMA/Blog_1
+    
+format:
+  html:
+    include-after-body: ../footer.html
